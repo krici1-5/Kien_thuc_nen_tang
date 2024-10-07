@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 80%;
+            margin: 0;
+            padding: 0;
+        }
+        table{
+            width: 800px;
+            background-color: white;
+            margin: 20px auto;
+        }
+        td,th{
+            padding: 10px 15px ;
+            text-align: left;
+        }
+        th{
+            background-color: #e7e4e4;
+            border-top: 1px solid #808080;
+            border-bottom: 2px solid #000;
+            letter-spacing: 0.1em;
+        }
+        .money{
+            text-align: right;
+        }
+        tr:nth-child(even){
+            background-color: rgb(192, 242, 246);
+        }
+        tr:hover{
+            background-color: #808080;
+        }
+        h1{ letter-spacing: 0.1em;
+            text-align: center;
+            font-size: 40px;
+            text-shadow: 4px 5px 5px #808080;
+        }
+
+    </style>
+</head>
+<body>
+    <table >
+        <h1>Đấu giá Phiên bản đầu tiên</h1>
+        <tr>
+            <th>TÁC GIẢ</th>
+            <th>TIÊU ĐỀ</th>
+            <th class="money">GIÁ DỰ TRỮ</th>
+            <th class="money">GIÁ HIỆN TẠI</th>
+        </tr>
+        <tr>
+            <td>E.E. Cummings</td>
+            <td>Tulips & Chimneys</td>
+            <td class="money">$2,000.00</td>
+            <td class="money">$2,642.50</td>
+        </tr>
+        <tr>
+            <td>Charles d'Orleans</td>
+            <td>Pòemes</td>
+            <td class="money"></td>
+            <td class="money">$5,866.00</td>
+        </tr>
+        <tr>
+            <td>T.S. Eliot</td>
+            <td>Poems 1909-1925</td>
+            <td class="money">$1,250.00</td>
+            <td class="money">$8,499.35</td>
+        </tr>
+        <tr>
+            <td>Sylvia Plath</td>
+            <td>The Colossis</td>
+            <td class="money"></td>
+            <td class="money">$1,031.72</td>
+        </tr>
+    </table>
+</body>
+</html>

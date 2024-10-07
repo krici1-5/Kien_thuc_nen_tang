@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <!-- Text input -->
+         <p>Tên đăng nhập<input type="text" name="username" size="15" maxlength="20"></p>
+         <p>Mật Khẩu<input type="password" name="password" size="15" maxlength="20"></p>
+         <p>
+            <textarea name="noidung" cols="15" rows="5">
+                Nội dung!
+            </textarea>
+         </p>
+         <p>
+            Phái:
+            <input type="radio" id="male" name="gender" value="male " checked>
+            <label for="male">Male</label> <br>
+            <input type="radio" id="female" name="gender" value="female " >
+            <label for="male">Female</label>
+         </p>
+<fieldset>
+         <p>
+            Sở thích: <br>
+            <input type="checkbox" id="music" name="sothich" value="music">
+            <label for="music">Âm nhạc</label> <br>
+            <input type="checkbox" id="music" name="sothich" value="music" >
+            <label for="music">Âm nhạc</label>
+         </p>
+</fieldset>
+         <p>
+            Thiết bị bạn thường dụng:
+            <select name="thietbi" multiple size="3">
+                <option ></option>
+                <option value="laptop">Máy tính sách tay</option>
+                <option value="pc">Máy tính PC</option>
+                <option value="tablet">Máy tính bảng</option>
+                <option value="phone">Điện thoại</option>
+            </select>
+            <p>
+                Cv:
+                <input type="file" name="cv">
+            </p>
+            <p>
+                <input type="submit" value="Gửi">
+                <input type="reset" value="Reset">
+                <input type="button" value="Click me">
+            </p>
+            <p>
+                <input type="image" src="#">
+            </p>
+         </p>
+    </form>
+</body>
+</html>
